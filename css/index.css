@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'league-gothic';
+    src: url('../fonts/LeagueGothic-Regular.ttf') ;
+}
+@font-face {
+    font-family: 'klee-one';
+    src: url('../fonts/KleeOne-Regular.ttf');
+}
+
 body{
     margin: 0;
     overflow-x: hidden;
@@ -85,4 +94,13 @@ width: 40px;
 
 .dropdown-menu button:hover {
     background-color: #f1f1f1;
+}
+.intro_text{
+    font-family: 'klee-one';
+    font-size: 20px;
+    color: black;
+}
+.links_rechts_margin{
+    margin-left: 10vw;
+    margin-right: 10vw;
 }

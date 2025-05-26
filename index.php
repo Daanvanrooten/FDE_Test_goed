@@ -14,6 +14,10 @@
 <?php
 echo $navbar;
 ?>
-
+<div class="links_rechts_margin">
+<div class="intro_text">
+    <p>Hey burger liefhebber</p>
+</div>
+</div>
 </body>
 </html>
