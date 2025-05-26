@@ -49,3 +49,40 @@ width: 40px;
     align-items: center;
     margin-right: 50px;
 }
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -50px;
+    background-color: rgba(255, 25, 29, 1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+.dropdown-menu button {
+    display: block;
+    width: 100px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 14px;
+    border-radius: 10px;
+    
+}
+
+.dropdown-menu button:hover {
+    background-color: #f1f1f1;
+}
