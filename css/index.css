@@ -10,17 +10,17 @@ width: 40px;
  height: 100px;
  background-color: rgba(255, 25, 29, 1);
  align-items: center;
+ padding-left: 50px;
+ justify-content: space-between;
+ 
 }
 .menu img{
     width: 30px;
-    margin-left: 50px;
 }
-.logo{
-    margin-left: 43vw;
-    margin-right: 20vw;
-}
+
 .logo img{
     width: 80px;
+    margin-left: 200px;
 }
 .talen{
     display: flex;
@@ -36,9 +36,16 @@ width: 40px;
     background-color: black;
     color: white;
 }
+
 .Inlog_Uitlog button{
     background-color: black;
     color: white;
     padding: 10px;
     border-radius: 10px;
+}
+.responsive_rechterkant {
+    display: flex; /* of block/grid afhankelijk van layout */
+    gap: 10px;
+    align-items: center;
+    margin-right: 50px;
 }
