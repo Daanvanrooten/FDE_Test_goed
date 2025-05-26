@@ -1,6 +1,6 @@
 <?php
- include_once 'classes/navbar.php';
-?>
+ include 'classes/navbar.php';
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
 </head>
 <body>
-    <?php echo $navbar; ?>
+<?php
+echo $navbar;
+?>
+
 </body>
 </html>

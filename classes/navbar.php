@@ -3,7 +3,7 @@ $navbar = '
 <div class="Left_right_margin">
     <div class="navbar">
         <div class="menu">
-            <img src="../images/menu.png" >
+            <img src="images/menu.png" >
         </div>
         <div class="logo">
             <img src="../images/smokey_buns.png" >
