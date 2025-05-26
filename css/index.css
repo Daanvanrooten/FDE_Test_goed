@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.winkelmandje img{
+width: 40px;
+}
+.navbar{
+ display: flex;
+ height: 100px;
+ background-color: rgba(255, 25, 29, 1);
+ align-items: center;
+}
+.menu img{
+    width: 30px;
+    margin-left: 50px;
+}
+.logo{
+    margin-left: 43vw;
+    margin-right: 20vw;
+}
+.logo img{
+    width: 80px;
+}
+.talen{
+    display: flex;
+    gap: 5px;
+}
+.talen button{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.zwart button{
+    background-color: black;
+    color: white;
+}
+.Inlog_Uitlog button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
