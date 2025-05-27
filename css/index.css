@@ -1,15 +1,25 @@
 @font-face {
     font-family: 'league-gothic';
-    src: url('../fonts/LeagueGothic-Regular.ttf') ;
+    src: url('../fonds/LeagueGothic-Regular-VariableFont_wdth.ttf') ;
 }
 @font-face {
     font-family: 'klee-one';
-    src: url('../fonts/KleeOne-Regular.ttf');
+    src: url('../fonds/KleeOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'jockeyone';
+    src: url('../fonds/JockeyOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'martel-sans';
+    src: url('../fonds/MartelSans-Regular.ttf');
+
 }
 
 body{
     margin: 0;
     overflow-x: hidden;
+    background-color: rgb(240, 240, 240);
 }
 .winkelmandje img{
 width: 40px;
@@ -98,9 +108,100 @@ width: 40px;
 .intro_text{
     font-family: 'klee-one';
     font-size: 20px;
-    color: black;
+    color: rgba(255, 25, 29, 1);
+    margin-top: 40px;
 }
 .links_rechts_margin{
     margin-left: 10vw;
     margin-right: 10vw;
+    
+}
+.burger{
+    font-family: 'league-gothic';
+    font-size: 50px;
+}
+.burger p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner img{
+    width: 100%;
+}
+.grijzebox{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(214, 214, 214, 1);
+}
+.about_us{
+    font-family: jockeyone;
+    display: flex;
+    justify-content: center;
+}
+.about_us p{
+    font-size: 40px;
+}
+.witerand{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    padding-right: 0;
+    width: 80%;
+    background-color: white;
+}
+.textvalk{
+    font-size: 19px;
+    font-family: 'martel-sans';
+    width: 80%;
+    padding-left: 10%;
+}
+.brugers_one_sale{
+    display: flex;
+    justify-content: center;
+    font-family: 'league-gothic';
+    font-size: 50px;
+    margin-top: 10px;
+}
+.brugers_one_sale p{
+    margin-top: 70px;
+}
+.enkel_wopper_img img{
+    width: 204px;
+    transform: translate(0, 4px);
+}
+.textbox{
+    width: 204px;
+    font-family: 'martel-sans';
+    background-color: white;
+}
+.burger_font{
+    font-family: 'jockeyone';
+    font-size: 15px;
+}
+.burger_font p{
+    margin-top: 0;
+}
+.sale_display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_margin{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button_mandje button{
+    width: 95%;
+    height: 30px;
+    background-color: rgba(255, 25, 29, 1);
+    border-radius: 10px;
+    font-family: 'jockeyone';
+    margin-top: 10px;
+}
+.text_prijs_burger p{
+    margin: 0;
+    font-size: 12px;
+}
+.margin_bottom{
+    margin-bottom: 60px;
 }
