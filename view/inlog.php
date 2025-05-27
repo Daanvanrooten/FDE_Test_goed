@@ -12,5 +12,25 @@
 </head>
 <body>
     <?php echo $navbar; ?>
+    <div class="links_rechts_margin_contact">
+    <div class="inlog_kop">
+        <p>Inloggen</p>
+    </div>
+    <div class="contacten_grijze_rand">
+        <div class="gebruikersnaam">
+            <p>Gebruikersnaam</p>
+            <input type="text" placeholder="Vul hier je gebruikersnaam in">
+        </div>
+        <div class="wachtwoord">
+            <p>Wachtwoord</p>
+            <input type="email" placeholder="Vul hier je wachtwoord in">
+        </div>
+        
+        <div class="button_verstuur">
+            <button>Verstuur</button>
+    </div>
+    </div>
+    <div class="margin_bottom">
+        </div>
 </body>
 </html>
