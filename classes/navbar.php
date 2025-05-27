@@ -3,8 +3,14 @@ $navbar = '
 <div class="Left_right_margin">
     <div class="navbar">
         <div class="menu">
-            <img src="images/menu.png" >
-        </div>
+    <img src="images/menu.png" onclick="toggleMenu()" alt="Menu">
+    <div class="dropdown-menu" id="dropdownMenu">
+        <button>Home</button>
+        <button>Over Ons</button>
+        <button>Contact</button>
+        <button>Services</button>
+    </div>
+</div>
         <div class="logo">
             <img src="../images/smokey_buns.png" >
         </div>
