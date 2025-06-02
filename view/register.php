@@ -59,7 +59,7 @@
             <input type="text" placeholder="Vul hier je gebruikersnaam in">
         </div>
         <div class="wachtwoord">
-            <p>Wachtwoord herhalen</p>
+            <p>Wachtwoord herhaleneq</p>
             <input type="email" placeholder="Vul hier je wachtwoord in">
         </div>
         
